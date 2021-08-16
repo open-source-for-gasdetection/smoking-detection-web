@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="CSS/frame.css">
+    <!--<link rel="stylesheet" href="CSS/de.css"-->
+    
+
+
+</head>
+<body>
+    <div class="wrap">
+
+        <div class="header">
+
+          <nav class="nav">
+            <div class="nav__wrap">
+
+              <div class="nav__container">
+                <div class="nav__header">
+                 <strong class="nav__title">MENU</strong>
+                </div>
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="" target="_blank" class="nav__link">분류</a></li>
+                  <li class="nav__item"><a href="" target="_blank" class="nav__link">보류</a></li>
+                  <li class="nav__item"><a href="" target="_blank" class="nav__link">완료</a>
+                  </li>
+                </ul>
+              </div>
+
+             </div>
+          </nav>
+        </div>
+
+        <div class="main" role="main">
+          <div class="main__header"> 
+            <h2 class="main__title">smoking detection</h2>
+          </div>
+
+        </div>
+      </div>
+</body>
+</html>
