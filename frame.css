@@ -1,4 +1,3 @@
-
 .wrap {
   display: grid;
   grid-template-columns: 200px minmax(420px, 1fr);
@@ -92,9 +91,9 @@
   color: #fff;
 }
 .listing-card {
-  max-width: 1600px;
+  max-width: 900px;
   margin: 30px auto 60px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .listing-card__list {
   display: grid;
@@ -103,7 +102,7 @@
 }
 .listing-card__item {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
   border: 1px solid #f0f0f0;
 }
@@ -111,7 +110,7 @@
   height: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 70%;
+  padding-top: 80%;
 }
 .listing-card__info {
   margin: 20px 0 10px;
