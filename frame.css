@@ -9,11 +9,12 @@
   min-height: 100vh;
   grid-row: span 2;
   color: #fff;
+  padding: 20px;
   background-color: #ff3b49;
 }
 .header__text {
   margin: 25px 0 40px;
-  font-size: 50%;
+  font-size: 80%;
   opacity: 0.6;
   padding: 0 20px;
   line-height: 140%;
@@ -36,14 +37,6 @@
   padding: 8px 20px;
   background-color: #ff5662;
 }
-.nav__header{
-  position: relative;
-  text-align: center;
-  padding: 20px 20px;
-  font-size: 26px;
-  
-  background-color: #ff5662;
-}
 .nav__list {
   font-size: 16px;
   padding: 0 20px;
@@ -63,11 +56,10 @@
   display: inline-block;
   width: 0%;
   height: 1px;
-  background-color: white;
+  background-color: #000;
   transform: translateY(-50%);
   transition: width 0.3s;
   content: "";
-  
 }
 .nav__link:hover:after {
   width: 100%;
@@ -78,9 +70,10 @@
 .main__header {
   position: relative;
   text-align: center;
-  padding: 15px 15px;
-  font-size: 15px;
-  background-color: grey;
+  padding: 20px 20px;
+  margin:none;
+  font-size: 30px;
+  background-color: gray;
   background-size: cover;
 }
 .main__header:after {
@@ -93,13 +86,63 @@
   background-color: rgba(10, 10, 10, 0.6);
   content: "";
 }
-
 .main__title {
   z-index: 1;
   position: relative;
   color: #fff;
 }
+.listing-card {
+  max-width: 1600px;
+  margin: 30px auto 60px;
+  padding: 0 20px;
+}
+.listing-card__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-gap: 30px;
+}
+.listing-card__item {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+}
+.listing-card__image {
+  height: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 70%;
+}
+.listing-card__info {
+  margin: 20px 0 10px;
+}
+.listing-card__name {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 18px;
+  text-align: center;
+}
 
+.listing-card__img-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.listing-card__img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  display: block;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+}
 
 body {
   background-color: #f5f5f5;
